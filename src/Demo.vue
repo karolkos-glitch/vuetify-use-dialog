@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import { useConfirm, useSnackbar } from '@/.'
 
 const confirm = useConfirm()
+
 const toast = useSnackbar()
 
 const originalItems = ['Vue', 'React', 'Solid', 'Angular', 'Svelte']
